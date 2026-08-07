@@ -12,6 +12,6 @@ public:
             temp >>= 1;
         }
 
-        return (~n) & mask;
+        return n ^ mask;
     }
 };
